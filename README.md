@@ -1,4 +1,4 @@
-# Landing Page de IsaacV
+# Landing Page de Isaac Vasquez
 
 Esta es mi landing page personal, donde pongo a prueba mis conocimientos en programación web y muestro mi portafolio.
 
@@ -21,6 +21,6 @@ Esta página está construida utilizando HTML, CSS y JavaScript.
 Si deseas ponerse en contacto conmigo, puedes hacerlo a través de los siguientes medios:
 
 - Email: [visaac173@gmail.com](mailto:visaac173@gmail.com)
-- LinkedIn: [linkedin.com/in/tuperfil](https://www.linkedin.com/in/jose-isaac-vasquez-llanas-92bb29114/)
+- LinkedIn: [linkedin.com/in/IsaacVasquez](https://www.linkedin.com/in/jose-isaac-vasquez-llanas-92bb29114/)
 
 ¡Gracias por visitar mi página!

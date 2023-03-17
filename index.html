@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <section class="container">
+            <div class="logo">
+                <a href="index.html">Isaac Vasquez</a>
+            </div>
+            <button class="menu-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+                </svg>
+                <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 
+                        17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z" />
+                </svg>
+            </button>
+            <nav class="menu">
+                <a class="menu-item" href="#inicio">Inicio</a>
+                <a href="#acerca">Acerca</a>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#portafolio">Portafolio</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </section>
+    </header>
+    <section id="inicio" class="home">
+        <article class="hero-image" style="--hero-image:url('assets/bellasArtes.jpg');
+        --hero-attachment:fixed">
+            <aside class="hero-image-opacity" style="--hero-opacity-color: var(--black-alpha-color);">
+                <div class="hero-image-content">
+                    <h2 class="hero-image-title" style="--hero-text-color:var(--white-color);">
+                        Bienvenidos <br> mi sitio
+                    </h2>
+                    <a href="#contacto" class="btn">CONTÁCTAME</a>
+                </div>
+            </aside>
+        </article>
+    </section>
+
+    <section id="acerca" class="about section container full-lg-screen">
+        <article class="text-lg-right">
+            <aside class="text-center text-lg-right">
+                <h1>Isaac Vasquez</h1>
+                <h5>Programador</h5>
+            </aside>
+            <p>
+                Soy ingeniero en Comunicaciones y Electrónica apasionado por el desarrollo de software y hardware. Me he especializado en lenguajes de programación como C# .NET, HTML, CSS y JS,
+                 y he trabajado en proyectos que involucran el desarrollo de aplicaciones web y móviles, sistemas de gestión de base de datos y soluciones de automatización de procesos.
+            </p>
+            <p>Además de mi experiencia en programación, tengo un sólido conocimiento en redes y telecomunicaciones.
+                 Implementando y configurando redes LAN, diagnóstico y solución de problemas 
+                 de red y seguridad en redes.
+            </p>
+            <p>
+                Mi combinación de habilidades en programación y redes me permite comprender las complejas interacciones entre sistemas de software y hardware, y solucionar problemas de manera eficiente.
+                 Soy una persona comprometida, responsable y proactiva, y siempre estoy dispuesto a aprender nuevas tecnologías y a trabajar en equipo para alcanzar los objetivos del proyecto.
+            </p>
+            <div class="text-center text-lg-left">
+                <a href="assets/CV.pdf" class="btn" rel="noopener" target="_blank">Descarga mi CV</a>
+            </div>
+        </article>
+        <article>
+            <img  src="assets/isaacv.jpg" alt="jonmircha">
+        </article>
+        <article>
+            <h2 class="text-center text-lg-left">Mis habilidades</h2>
+            <div class="progress">
+                <p>
+                    <b>Desarollo Web Frontend</b>
+                    <b>80%</b>
+                </p>
+                <progress value="90" min="0" max="100"></progress>
+            </div>
+            <div class="progress">
+                <p>
+                    <b>WPO y SEO</b>
+                    <b>60%</b>
+                </p>
+                <progress value="70" min="0" max="100"></progress>
+            </div>
+            <div class="progress">
+                <p>
+                    <b>Desarollo Web Backend</b>
+                    <b>70%</b>
+                </p>
+                <progress value="80" min="0" max="100"></progress>
+            </div>
+            <div class="progress">
+                <p>
+                    <b>Redes</b>
+                    <b>80%</b>
+                </p>
+                <progress value="70" min="0" max="100"></progress>
+            </div>
+            <div class="progress">
+                <p>
+                    <b>Inglés</b>
+                    <b>80%</b>
+                </p>
+                <progress value="70" min="0" max="100"></progress>
+            </div>
+        </article>
+    </section>
+
+    <section id="experiencia" class="services section bg-gray-light ">
+        <div class="container full-lg-screen">
+            <h2 class="section-title">¿Qué te ofrezco?</h2>
+            <article class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M20,3H4C2.897,3,2,3.897,2,5v14c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V5C22,3.897,21.103,3,20,3z M4,19V7h16 l0.002,12H4z" />
+                    <path
+                        d="M9.293 9.293L5.586 13 9.293 16.707 10.707 15.293 8.414 13 10.707 10.707zM14.707 9.293L13.293 10.707 15.586 13 13.293 15.293 14.707 16.707 18.414 13z" />
+                </svg>
+                <h3>Programación <i>Web</i></h3>
+                
+                <p>Desarrollo sitios y aplicaciones para plataformas Web.
+                    Te ayudo a construir tu proyecto con enfoque en el Frontend y manejo de base de datos.
+                </p>
+            </article>
+            <article class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z" />
+                </svg>
+                <h3>Diseño <i>Web</i></h3>
+                <p>
+                    Prototipo y maqueto tus diseños estáticos y los convierto en increíbles sitios y aplicaciones web
+                    responsivas, óptimas y accesibles.
+                </p>
+            </article>
+            <article class="service-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <circle cx="12" cy="20" r="2" />
+                    <circle cx="12" cy="4" r="2" />
+                    <circle cx="6.343" cy="17.657" r="2" />
+                    <circle cx="17.657" cy="6.343" r="2" />
+                    <circle cx="4" cy="12" r="2.001" />
+                    <circle cx="20" cy="12" r="2" />
+                    <circle cx="6.343" cy="6.344" r="2" />
+                    <circle cx="17.657" cy="17.658" r="2" />
+                </svg>
+                <h3><i>WPO</i></h3>
+                <p>Web Performance Optimization, hago que tus sitios y aplicaciones web mejoren su tiempo de carga y
+                    respuesta.
+                </p>
+            </article>
+
+        </div>
+    </section>
+    <section id="portafolio" class="portfolio section">
+        <h2 class="section-title">Portafolio</h2>
+        <div class="container full-lg-screen">      
+            <a href="#trabajo-1" class="portfolio-card">
+                <img src="assets/trabajo1.JPG" alt="Trabajo 1">
+                <aside class="portfolio-card-info">
+                    <div>
+                        <h3>Proyecto 1</h3>
+                        <p>
+                            Es un proyecto de HTML y CSS que implica crear una réplica de la página principal de YouTube. 
+                            Se utiliza para poner a prueba y mejorar las habilidades en diseño web y front-end, y se pueden
+                             aprender técnicas como el diseño responsivo y la organización del código.
+                        </p>
+                    </div>
+                </aside>
+            </a>
+            <a href="#trabajo-2" class="portfolio-card">
+                <img src="assets/trabajo2.jpg" alt="Trabajo 2">
+                <aside class="portfolio-card-info">
+                    <div>
+                        <h3>Proyecto 2</h3>
+                        <p>
+                            Recientemente he estado trabajando en un proyecto que involucra programar un microcontrolador para controlar una serie de actuadores y sensores.
+                             Este tipo de proyecto me permite aplicar mis conocimientos en programación y electrónica para crear soluciones innovadoras y eficientes.
+                        </p>
+                    </div>
+                </aside>
+            </a>
+            <a href="#trabajo-3" class="portfolio-card">
+                <img src="assets/trabajo3.JPG" alt="Trabajo 3">
+                <aside class="portfolio-card-info">
+                    <div>
+                        <h3>Proyecto 3</h3>
+                        <p>
+                            Este es un proyecto de diseño web de Starbucks que implica el uso de tecnologías como Flexbox y CSS Grid. Se trata de una excelente manera de poner en práctica los conocimientos de diseño web y front-end, ya que se deben utilizar estas herramientas para lograr una apariencia similar a la página original.
+                             Al trabajar en este proyecto, se pueden aprender técnicas avanzadas de diseño responsivo y de organización del código, que permiten una mayor flexibilidad y eficiencia en la creación de páginas web
+                        </p>
+                    </div>
+                </aside>
+            </a>
+            <a href="#trabajo-4" class="portfolio-card trabajo4">
+                <img src="assets/trabajo2.jpg" alt="Trabajo 3">
+                <aside class="portfolio-card-info">
+                    <div>
+                        <h3>Proyecto 4</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deserunt repellat quod
+                            cupiditate
+                            fugiat
+                            impedit vel mollitia eligendi, cumque ipsum nemo repellendus vero asperiores earum non
+                            similique numquam
+                            recusandae totam?</p>
+                    </div>
+                </aside>
+            </a>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact section full-lg-screen bg-gray-light ">
+        <div class="container">
+            <h2 class="section-title">¿Interesad@?</h2>
+            <article class="contact-cards">
+                <aside class="contact-card box-shadow-1">
+                    <svg width="37" height="28" viewBox="0 0 37 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M18.5 7.3125L7 16.8125V27C7 27.5625 7.4375 28 8 28H15C15.5 28 15.9375 27.5625 15.9375 27V21C15.9375 20.5 16.4375 20 16.9375 20H20.9375C21.5 20 21.9375 20.5 21.9375 21V27C21.9375 27.5625 22.4375 28 22.9375 28H30C30.5 28 31 27.5625 31 27V16.75L19.4375 7.3125C19.3125 7.1875 19.125 7.125 19 7.125C18.8125 7.125 18.625 7.1875 18.5 7.3125ZM36.6875 13.75L31.5 9.4375V0.8125C31.5 0.375 31.125 0.0625 30.75 0.0625H27.25C26.8125 0.0625 26.5 0.375 26.5 0.8125V5.3125L20.875 0.6875C20.375 0.3125 19.6875 0.0625 19 0.0625C18.25 0.0625 17.5625 0.3125 17.0625 0.6875L1.25 13.75C1.0625 13.875 0.9375 14.125 0.9375 14.3125C0.9375 14.5 1.0625 14.6875 1.125 14.8125L2.75 16.75C2.875 16.9375 3.0625 17 3.3125 17C3.5 17 3.6875 16.9375 3.8125 16.8125L18.5 4.75C18.625 4.625 18.8125 4.5625 19 4.5625C19.125 4.5625 19.3125 4.625 19.4375 4.75L34.125 16.8125C34.25 16.9375 34.4375 17 34.625 17C34.875 17 35.0625 16.9375 35.1875 16.75L36.8125 14.8125C36.9375 14.6875 37 14.5 37 14.3125C37 14.125 36.875 13.875 36.6875 13.75Z"
+                            fill="#D90062" />
+                    </svg>
+                    <h5>UBICACIÓN</h5>
+                    <small>Gustavo A. Madero,CDMX</small>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M31.8125 1.5625L25.3125 0.0625C24.625 -0.125 23.875 0.25 23.5625 0.9375L20.5625 7.9375C20.3125 8.5625 20.5 9.25 21 9.6875L24.8125 12.8125C22.5625 17.5625 18.625 21.5625 13.75 23.875L10.625 20.0625C10.1875 19.5625 9.5 19.375 8.875 19.625L1.875 22.625C1.1875 22.9375 0.875 23.6875 1 24.375L2.5 30.875C2.6875 31.5625 3.25 32 4 32C20 32 33 19.0625 33 3C33 2.3125 32.5 1.75 31.8125 1.5625Z"
+                            fill="#D90062" />
+                    </svg>
+                    <h5>TELEFÓNO</h5>
+                    <small>(+52) 5610344194</small>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M31.375 7.9375C29.9375 9.0625 28.125 10.4375 21.75 15.0625C20.5 16 18.1875 18.0625 16 18.0625C13.75 18.0625 11.5 16 10.1875 15.0625C3.8125 10.4375 2 9.0625 0.5625 7.9375C0.3125 7.75 0 7.9375 0 8.25V21C0 22.6875 1.3125 24 3 24H29C30.625 24 32 22.6875 32 21V8.25C32 7.9375 31.625 7.75 31.375 7.9375ZM16 16C17.4375 16.0625 19.5 14.1875 20.5625 13.4375C28.875 7.4375 29.5 6.875 31.375 5.375C31.75 5.125 32 4.6875 32 4.1875V3C32 1.375 30.625 0 29 0H3C1.3125 0 0 1.375 0 3V4.1875C0 4.6875 0.1875 5.125 0.5625 5.375C2.4375 6.875 3.0625 7.4375 11.375 13.4375C12.4375 14.1875 14.5 16.0625 16 16Z"
+                            fill="#D90062" />
+                    </svg>
+                    <h5>EMAIL</h5>
+                    <small>visaac173@gmail.com</small>
+                </aside>
+                <aside class="contact-card box-shadow-1">
+                    <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M28.5 9.4375L28.9375 6.9375C29.0625 6.4375 28.6875 6 28.1875 6H23.5625L24.4375 0.9375C24.5625 0.4375 24.1875 0 23.6875 0H21.1875C20.8125 0 20.5 0.3125 20.4375 0.625L19.5 6H13.3125L14.25 0.9375C14.3125 0.4375 13.9375 0 13.5 0H10.9375C10.5625 0 10.25 0.3125 10.1875 0.625L9.25 6H4.3125C3.9375 6 3.625 6.3125 3.5625 6.625L3.125 9.125C3.0625 9.625 3.375 10 3.875 10H8.5625L7.125 18H2.1875C1.8125 18 1.5 18.3125 1.4375 18.625L1 21.125C0.875 21.625 1.25 22 1.75 22H6.375L5.5 27.125C5.375 27.625 5.75 28 6.25 28H8.75C9.125 28 9.4375 27.75 9.5 27.4375L10.4375 22H16.625L15.6875 27.125C15.625 27.625 16 28 16.4375 28H19C19.375 28 19.6875 27.75 19.75 27.4375L20.6875 22H25.625C26 22 26.3125 21.75 26.375 21.4375L26.8125 18.9375C26.875 18.4375 26.5625 18 26.0625 18H21.375L22.8125 10H27.75C28.125 10 28.4375 9.75 28.5 9.4375ZM17.3125 18H11.1875L12.625 10H18.75L17.3125 18Z"
+                            fill="#D90062" />
+                    </svg>
+                    <h5>SOCIAL MEDIA</h5>
+                    <svg width="89" height="11" viewBox="0 0 89 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.4668 3.06055C12.3379 2.54492 11.9297 2.13672 11.4355 2.00781C10.5117 1.75 6.85938 1.75 6.85938 1.75C6.85938 1.75 3.18555 1.75 2.26172 2.00781C1.76758 2.13672 1.35938 2.54492 1.23047 3.06055C0.972656 3.96289 0.972656 5.89648 0.972656 5.89648C0.972656 5.89648 0.972656 7.80859 1.23047 8.73242C1.35938 9.24805 1.76758 9.63477 2.26172 9.76367C3.18555 10 6.85938 10 6.85938 10C6.85938 10 10.5117 10 11.4355 9.76367C11.9297 9.63477 12.3379 9.24805 12.4668 8.73242C12.7246 7.80859 12.7246 5.89648 12.7246 5.89648C12.7246 5.89648 12.7246 3.96289 12.4668 3.06055ZM5.65625 7.63672V4.15625L8.70703 5.89648L5.65625 7.63672ZM31.502 3.64062C31.9316 3.31836 32.3184 2.93164 32.6191 2.48047C32.2324 2.65234 31.7812 2.78125 31.3301 2.82422C31.8027 2.54492 32.1465 2.11523 32.3184 1.57812C31.8887 1.83594 31.3945 2.0293 30.9004 2.13672C30.4707 1.68555 29.8906 1.42773 29.2461 1.42773C28 1.42773 26.9902 2.4375 26.9902 3.68359C26.9902 3.85547 27.0117 4.02734 27.0547 4.19922C25.1855 4.0918 23.5098 3.18945 22.3926 1.83594C22.1992 2.1582 22.0918 2.54492 22.0918 2.97461C22.0918 3.74805 22.4785 4.43555 23.1016 4.84375C22.7363 4.82227 22.3711 4.73633 22.0703 4.56445V4.58594C22.0703 5.68164 22.8438 6.58398 23.875 6.79883C23.7031 6.8418 23.4883 6.88477 23.2949 6.88477C23.1445 6.88477 23.0156 6.86328 22.8652 6.8418C23.1445 7.74414 23.9824 8.38867 24.9707 8.41016C24.1973 9.01172 23.2305 9.37695 22.1777 9.37695C21.9844 9.37695 21.8125 9.35547 21.6406 9.33398C22.6289 9.97852 23.8105 10.3438 25.0996 10.3438C29.2461 10.3438 31.502 6.92773 31.502 3.94141C31.502 3.83398 31.502 3.74805 31.502 3.64062ZM44.7793 8.92578C44.7793 8.88281 44.7363 8.83984 44.6719 8.83984C44.6074 8.83984 44.5645 8.88281 44.5645 8.92578C44.5645 8.96875 44.6074 9.01172 44.6719 8.99023C44.7363 8.99023 44.7793 8.96875 44.7793 8.92578ZM44.1133 8.81836C44.1133 8.86133 44.1562 8.92578 44.2207 8.92578C44.2637 8.94727 44.3281 8.92578 44.3496 8.88281C44.3496 8.83984 44.3281 8.79688 44.2637 8.77539C44.1992 8.75391 44.1348 8.77539 44.1133 8.81836ZM45.0801 8.79688C45.0156 8.79688 44.9727 8.83984 44.9727 8.9043C44.9727 8.94727 45.0371 8.96875 45.1016 8.94727C45.166 8.92578 45.209 8.9043 45.1875 8.86133C45.1875 8.81836 45.123 8.77539 45.0801 8.79688ZM46.4766 0.546875C43.5117 0.546875 41.2344 2.82422 41.2344 5.78906C41.2344 8.17383 42.7168 10.2148 44.8652 10.9453C45.1445 10.9883 45.2305 10.8164 45.2305 10.6875C45.2305 10.5371 45.2305 9.80664 45.2305 9.35547C45.2305 9.35547 43.7266 9.67773 43.4043 8.71094C43.4043 8.71094 43.168 8.08789 42.8242 7.9375C42.8242 7.9375 42.3301 7.59375 42.8457 7.59375C42.8457 7.59375 43.3828 7.63672 43.6836 8.15234C44.1562 8.99023 44.9297 8.75391 45.252 8.60352C45.2949 8.25977 45.4238 8.02344 45.5957 7.87305C44.3926 7.74414 43.168 7.57227 43.168 5.50977C43.168 4.9082 43.3398 4.62891 43.6836 4.24219C43.6191 4.0918 43.4473 3.5332 43.748 2.78125C44.1777 2.65234 45.2305 3.36133 45.2305 3.36133C45.6602 3.23242 46.1113 3.18945 46.5625 3.18945C47.0352 3.18945 47.4863 3.23242 47.916 3.36133C47.916 3.36133 48.9473 2.63086 49.3984 2.78125C49.6992 3.5332 49.5059 4.0918 49.4629 4.24219C49.8066 4.62891 50.0215 4.9082 50.0215 5.50977C50.0215 7.57227 48.7539 7.74414 47.5508 7.87305C47.7441 8.04492 47.916 8.36719 47.916 8.88281C47.916 9.5918 47.8945 10.4941 47.8945 10.666C47.8945 10.8164 48.002 10.9883 48.2812 10.9238C50.4297 10.2148 51.8906 8.17383 51.8906 5.78906C51.8906 2.82422 49.4629 0.546875 46.4766 0.546875ZM43.3184 7.95898C43.2754 7.98047 43.2969 8.04492 43.3184 8.08789C43.3613 8.10938 43.4043 8.13086 43.4473 8.10938C43.4688 8.08789 43.4688 8.02344 43.4258 7.98047C43.3828 7.95898 43.3398 7.9375 43.3184 7.95898ZM43.082 7.78711C43.0605 7.83008 43.082 7.85156 43.125 7.87305C43.168 7.89453 43.2109 7.89453 43.2324 7.85156C43.2324 7.83008 43.2109 7.80859 43.168 7.78711C43.125 7.76562 43.1035 7.76562 43.082 7.78711ZM43.7695 8.56055C43.748 8.58203 43.748 8.64648 43.8125 8.68945C43.8555 8.73242 43.9199 8.75391 43.9414 8.71094C43.9629 8.68945 43.9629 8.625 43.9199 8.58203C43.877 8.53906 43.8125 8.51758 43.7695 8.56055ZM43.5332 8.23828C43.4902 8.25977 43.4902 8.32422 43.5332 8.36719C43.5762 8.41016 43.6191 8.43164 43.6621 8.41016C43.6836 8.38867 43.6836 8.32422 43.6621 8.28125C43.6191 8.23828 43.5762 8.2168 43.5332 8.23828ZM69.4219 1.0625H61.1504C60.7852 1.0625 60.4844 1.38477 60.4844 1.77148V10C60.4844 10.3867 60.7852 10.6875 61.1504 10.6875H69.4219C69.7871 10.6875 70.1094 10.3867 70.1094 10V1.77148C70.1094 1.38477 69.7871 1.0625 69.4219 1.0625ZM63.3848 9.3125H61.9668V4.73633H63.3848V9.3125ZM62.6758 4.0918C62.2031 4.0918 61.8379 3.72656 61.8379 3.27539C61.8379 2.82422 62.2031 2.4375 62.6758 2.4375C63.127 2.4375 63.4922 2.82422 63.4922 3.27539C63.4922 3.72656 63.127 4.0918 62.6758 4.0918ZM68.7344 9.3125H67.2949V7.07812C67.2949 6.5625 67.2949 5.875 66.5645 5.875C65.8125 5.875 65.7051 6.45508 65.7051 7.05664V9.3125H64.2871V4.73633H65.6406V5.35938H65.6621C65.8555 4.99414 66.3281 4.60742 67.0156 4.60742C68.4551 4.60742 68.7344 5.57422 68.7344 6.79883V9.3125ZM83.5156 3.4043C82.1406 3.4043 81.0449 4.52148 81.0449 5.875C81.0449 7.25 82.1406 8.3457 83.5156 8.3457C84.8691 8.3457 85.9863 7.25 85.9863 5.875C85.9863 4.52148 84.8691 3.4043 83.5156 3.4043ZM83.5156 7.48633C82.6348 7.48633 81.9043 6.77734 81.9043 5.875C81.9043 4.99414 82.6133 4.28516 83.5156 4.28516C84.3965 4.28516 85.1055 4.99414 85.1055 5.875C85.1055 6.77734 84.3965 7.48633 83.5156 7.48633ZM86.6523 3.31836C86.6523 2.99609 86.3945 2.73828 86.0723 2.73828C85.75 2.73828 85.4922 2.99609 85.4922 3.31836C85.4922 3.64062 85.75 3.89844 86.0723 3.89844C86.3945 3.89844 86.6523 3.64062 86.6523 3.31836ZM88.2852 3.89844C88.2422 3.125 88.0703 2.4375 87.5117 1.87891C86.9531 1.32031 86.2656 1.14844 85.4922 1.10547C84.6973 1.0625 82.3125 1.0625 81.5176 1.10547C80.7441 1.14844 80.0781 1.32031 79.498 1.87891C78.9395 2.4375 78.7676 3.125 78.7246 3.89844C78.6816 4.69336 78.6816 7.07812 78.7246 7.87305C78.7676 8.64648 78.9395 9.3125 79.498 9.89258C80.0781 10.4512 80.7441 10.623 81.5176 10.666C82.3125 10.709 84.6973 10.709 85.4922 10.666C86.2656 10.623 86.9531 10.4512 87.5117 9.89258C88.0703 9.3125 88.2422 8.64648 88.2852 7.87305C88.3281 7.07812 88.3281 4.69336 88.2852 3.89844ZM87.2539 8.71094C87.1035 9.14062 86.7598 9.46289 86.3516 9.63477C85.707 9.89258 84.2031 9.82812 83.5156 9.82812C82.8066 9.82812 81.3027 9.89258 80.6797 9.63477C80.25 9.46289 79.9277 9.14062 79.7559 8.71094C79.498 8.08789 79.5625 6.58398 79.5625 5.875C79.5625 5.1875 79.498 3.68359 79.7559 3.03906C79.9277 2.63086 80.25 2.30859 80.6797 2.13672C81.3027 1.87891 82.8066 1.94336 83.5156 1.94336C84.2031 1.94336 85.707 1.87891 86.3516 2.13672C86.7598 2.28711 87.082 2.63086 87.2539 3.03906C87.5117 3.68359 87.4473 5.1875 87.4473 5.875C87.4473 6.58398 87.5117 8.08789 87.2539 8.71094Z"
+                            fill="#333333" />
+                    </svg>
+
+                </aside>
+            </article>
+        </div>
+    </section>
+    <footer class="footer">
+        <small>Sitio diseñado por <a href="http://www.google.com" target="_blank" rel="noopened">Isaac Vasquez</a>
+        </small>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
